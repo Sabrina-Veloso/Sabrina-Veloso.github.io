@@ -1,0 +1,84 @@
+body {
+    /*background-image: url('');
+    background-color: #0c4c7c;*/
+    background-image: linear-gradient(to bottom right, #0c4c7c, #9eceee);
+    font-family: Arial, Helvetica, sans-serif;
+    /* opacity: 0,5;*/
+}
+
+div {
+    background-color: white;
+    text-align: 15px;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    border-radius: 45PX;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#qualificacao {
+    font-size: medium;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+button {
+    width: 20%;
+    white-space: normal;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#about {
+    -moz-box-align: center;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-gitHub {
+    background-color: #495057;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
