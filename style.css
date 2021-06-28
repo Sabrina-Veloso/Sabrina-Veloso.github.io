@@ -2,8 +2,12 @@ body {
     /*background-image: url('');
     background-color: #0c4c7c;*/
     background-image: linear-gradient(to bottom right, #0c4c7c, #9eceee);
-    font-family: Arial, Helvetica, sans-serif;
-    /* opacity: 0,5;*/
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+#content {
+    padding-top: 5px;
 }
 
 div {
@@ -14,9 +18,10 @@ div {
 }
 
 h1 {
-    background-color: white;
+    color: white;
     text-align: center;
-    border-radius: 45PX;
+    margin-top: 15px;
+    padding-top: 5px;
 }
 
 h2 {
@@ -24,14 +29,6 @@ h2 {
 }
 
 h3 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-p {
     text-align: center;
 }
 
@@ -61,6 +58,11 @@ button {
 
 #about {
     -moz-box-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .btn {
